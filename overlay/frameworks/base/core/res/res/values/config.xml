@@ -123,6 +123,12 @@
         <item>1259</item>
     </integer-array>
 
+	<!-- Whether the always on display mode is available. -->
+	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+	<!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
+	<bool name="config_displayBlanksAfterDoze">true</bool>
+
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
@@ -432,8 +438,5 @@
 
 	<!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
-
-    <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">true</bool>
 
 </resources>
