@@ -522,3 +522,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilds/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
     $(LOCAL_PATH)/prebuilds/lib64/libkeystore_binder.so:system/lib64/libkeystore_binder.so \
     $(LOCAL_PATH)/prebuilds/lib64/libkeystore-engine.so:system/lib64/libkeystore-engine.so
+
+# Spectrum
+PRODUCT_PACKAGES += \
+    init.spectrum.rc \
+    init.spectrum.sh
