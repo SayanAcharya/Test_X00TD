@@ -527,3 +527,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.spectrum.rc \
     init.spectrum.sh
+
+# ZenMotions
+PRODUCT_PACKAGES += \
+    zenmotions
